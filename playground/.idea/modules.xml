@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../billService/billing-service.iml" filepath="$PROJECT_DIR$/../billService/billing-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../customerService/customer-service.iml" filepath="$PROJECT_DIR$/../customerService/customer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../eurekaServer/eureka.iml" filepath="$PROJECT_DIR$/../eurekaServer/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/../gateway/app (3).iml" filepath="$PROJECT_DIR$/../gateway/app (3).iml" />

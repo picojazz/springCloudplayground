@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="customer-service" />
         <module name="gateway" />
+        <module name="billing-service" />
         <module name="inventory-service" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="billing-service" target="11" />
       <module name="customer-service" target="11" />
       <module name="eureka" target="11" />
       <module name="gateway" target="11" />
@@ -22,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="billing-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
